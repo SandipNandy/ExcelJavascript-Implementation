@@ -1,5 +1,5 @@
 var XLSX = require('xlsx');
-var workbook = XLSX.readFile('C:/Users/SandipNandi/Project/environment_details.xlsx');
+var workbook = XLSX.readFile('./environment_details.xlsx');
 var worksheet=workbook.Sheets['Sheet2'];
 var data=XLSX.utils.sheet_to_json(worksheet);
 
